@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: Poppins, Arial;
+  @apply text-base font-light tracking-tight;
+}
+
+nav ul li {
+  @apply border-r border-solid border-secondary w-full text-center;
+}
+
+nav ul li:last-child {
+  @apply border-0;
+}
+
+nav ul li a {
+  @apply font-normal tracking-tighter text-secondary;
+}
+
+.toggle span {
+  padding: 1px 0;
+}
+
+.toggle-menu {
+  letter-spacing: 0.5rem;
+  margin-top: 2px;
+}
+
+.wrapper {
+  @apply px-8;
+}
+
+@media screen and (min-width: 1700px) {
+  .wrapper {
+    @apply px-16;
+  }
+}
+
+.card {
+  @apply bg-white p-12 rounded-3xl;
+}
+
+.badge {
+  top: -5px;
+  right: -5px;
+  line-height: 0.5rem;
+}
+
+.add-to-cart {
+  transition: all 0.3s;
+  @apply bg-secondary text-secondary text-sm px-4 py-2 rounded-full;
+}
+
+.add-to-cart:hover {
+  @apply bg-primary text-white;
+}
+
+.add-to-cart:focus {
+  @apply outline-none;
+}
+
+.product-name {
+  @apply font-normal text-secondary tracking-tighter leading-tight;
+}
+
+.product-amount {
+  @apply text-xl text-primary tracking-tighter;
+}
+
+.category-nav li {
+  @apply mt-6;
+}
+
+.category-nav li:before {
+  content: "";
+  @apply px-0 text-primary;
+}
+
+@media screen and (min-width: 1440px) {
+  .category-nav li:before {
+    content: "-";
+    @apply px-5;
+  }
+}
+
+.category-nav li a {
+  @apply font-normal tracking-tighter text-secondary;
+}
+
+.listing > div {
+  @apply border-r border-solid border-secondary w-full px-10;
+}
+
+.listing > div:last-child {
+  @apply border-0;
+}
