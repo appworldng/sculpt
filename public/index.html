@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="stylesheet" href="/build/tailwind.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>LadipoMarket.com.ng</title>
+  </head>
+  <body class="antialiased">
+    <header>
+      <!-- Top Logo Section-->
+      <section class="wrapper py-12 border-b border-solid border-secondary">
+        <div class="flex items-center">
+          <!-- Logo -->
+          <div class="lg:flex-1">
+            <h1 class="text-3xl font-medium tracking-tighter">Sculpt</h1>
+          </div>
+
+          <!-- Search Bar -->
+          <div class="flex-1">
+            <div class="w-4/5 lg:w-3/4 flex items-center mx-auto relative">
+              <input
+                class="focus:outline-none border-2 border-primary border-solid text-sm tracking-tight px-10 py-3 rounded-full w-full"
+                placeholder="Search for product"
+                type="text"
+              />
+              <button
+                class="focus:outline-none bg-primary text-white font-bold px-5 py-3 absolute right-0 h-full rounded-r-full"
+              >
+                <svg
+                  width="1em"
+                  height="1em"
+                  viewBox="0 0 16 16"
+                  class="bi bi-search"
+                  fill="currentColor"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"
+                  />
+                  <path
+                    fill-rule="evenodd"
+                    d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="lg:flex-1">
+            <ul class="flex items-center justify-end">
+              <li class="ml-16 text-secondary font-normal tracking-tighter hidden lg:inline-block">
+                <a href="">My Account</a>
+              </li>
+              <li class="ml-16 text-secondary font-normal tracking-tighter hidden lg:inline-block">
+                <a href="">Contact</a>
+              </li>
+              <!-- Shopping Cart -->
+              <li class="lg:ml-16 text-3xl">
+                <a class="relative inline-block" href=""
+                  ><svg
+                    width="1em"
+                    height="1em"
+                    viewBox="0 0 16 16"
+                    class="bi bi-cart3"
+                    fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm7 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"
+                    />
+                  </svg>
+                  <span
+                    class="badge bg-primary rounded-full p-2 absolute text-center text-white text-sm font-bold"
+                  >3</span>
+                </span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Navigation -->
+      <nav class="wrapper py-4 shadow-sm">
+        <ul class="flex justify-between hidden lg:flex">
+          <li><a href="">Home</a></li>
+          <li><a href="">Categories</a></li>
+          <li><a href="">Shop</a></li>
+          <li><a href="">Cultures</a></li>
+          <li><a href="">Festivals</a></li>
+          <li><a href="">Museums</a></li>
+          <li><a href="">Arts</a></li>
+          <li><a href="">Monuments</a></li>
+          <li><a href="">Figures</a></li>
+          <li><a href="">Lootings</a></li>
+        </ul>
+
+        <!-- Toggle -->
+        <div class="flex justify-between">
+          <div class="flex items-center lg:hidden">
+            <button class="toggle focus:outline-none">
+              <span class="block bg-primary w-12 mb-1"></span>
+              <span class="block bg-primary w-12 mb-1"></span>
+              <span class="block bg-primary w-12"></span>
+            </button>
+            <span class="toggle-menu inline-block uppercase font-normal text-tertiary text-sm ml-8">Menu</span>
+          </div>
+
+          <!-- Contact Details -->
+          <div class="lg:hidden font-normal text-tertiary text-sm tracking-widest" style="margin-top: 2px;">(+234)-803 5454 516</div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="wrapper py-16 bg-secondary">
+      <!--Landing Section-->
+      <section class="flex">
+        <!--Categories Menu-->
+        <div class="w-1/5">
+          <div class="card">
+            <div class="-m-4 font-normal">Popular Categories</div>
+            <ul class="category-nav pt-6">
+              <li><a href="">African Bronzes</a></li>
+              <li><a href="">Painting & Art Works</a></li>
+              <li><a href="">Artifacts</a></li>
+              <li><a href="">Traditional Rulers</a></li>
+              <li><a href="">Auctions</a></li>
+              <li><a href="">Museum Exchange</a></li>
+            </ul>
+          </div>
+        </div>
+        <!--Featured Section-->
+        <div class="card flex-1 ml-8 xxl:ml-16 flex flex-wrap">
+          <div class="w-full xl:w-2/3 xxl:w-3/4 xl:border-r xl:border-solid xl:border-secondary pr-8 flex">
+            <img src="sculpt-1.png" />
+            <div class="ml-8 relative">
+              <h1
+                class="text-xl font-normal tracking-tight text-tertiary mb-4 w-2/3"
+              >
+                The Oba of Benin - Ewuare Ogidigan II (AD 790 - 883)
+              </h1>
+              <div class="opacity-50 leading-relaxed">
+                <p class="mb-4">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
+                  aliquid reiciendis cum odio officiis amet, dolores molestiae
+                  rerum deserunt possimus quia voluptatum repellat tenetur modi,
+                  non similique eveniet praesentium, qui natus.
+                </p>
+                <p class="hidden lg:inline-block xl:hidden xxl:inline-block">
+                  Dicta ad quam provident accusamus at, enim sint earum quasi
+                  amet eius nobis adipisci tempora mollitia consequatur. Dolor,
+                  nesciunt!
+                </p>
+              </div>
+              <h1 class="text-4xl text-primary tracking-tighter mt-3 leading-none">$850.00</h1>
+              <button class="add-to-cart absolute left-0 bottom-0">
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-cart-plus-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM4 14a1 1 0 1 1 2 0 1 1 0 0 1-2 0zm7 0a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9V5.5z"/>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="w-full pt-10 xl:pt-0 xl:pl-4 xl:w-1/3 xl:content-between xl:h-full xxl:w-1/4 flex flex-wrap">
+            <div class="flex w-1/3 xl:w-full">
+              <img src="sculpt-sm-1.png" alt="">
+              <div class="pl-4 pr-4 xl:pr-0 text-sm xl:text-base">
+                <p class="product-name">Oba of Benin - Esigi Akenzua II</p>
+                <h1 class="product-amount">$620.00</h1>
+              </div>
+            </div>
+            <div class="flex w-1/3 xl:w-full">
+              <img src="sculpt-sm-2.png" alt="">
+              <div class="pl-4 pr-4 xl:pr-0 text-sm xl:text-base">
+                <p class="product-name">Iya Loja (Yoruba) Egba Land Bronze</p>
+                <h1 class="product-amount">$480.00</h1>
+              </div>
+            </div>
+            <div class="flex w-1/3 xl:w-full">
+              <img src="sculpt-sm-3.png" alt="">
+              <div class="pl-4 pr-4 xl:pr-0 text-sm xl:text-base">
+                <p class="product-name">Ooni of Ife Head (Yoruba) African Bronze</p>
+                <h1 class="product-amount">$275.00</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+      <!--Categories Section-->
+      <section class="card mt-16">
+        <h1 class="text-4xl font-bold tracking-tighter border-b border-solid border-secondary pb-8 mb-8">Terracota</h1>
+        <div class="listing flex justify-between">
+          <div>
+            <p class="product-name mb-4 w-48">Oba of Benin - Esigie Akenzua II</p>
+            <img src="sculpt-2.png" alt="" class="w-full">
+            <div class="mt-4 flex items-center justify-between">
+              <p class="product-amount">$450.0</p>
+              <button class="add-to-cart">
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-cart-plus-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM4 14a1 1 0 1 1 2 0 1 1 0 0 1-2 0zm7 0a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9V5.5z"/>
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <div>
+            <p class="product-name mb-4 w-48">Iya Loja (Yoruba) Egba Land Bronze</p>
+            <img src="sculpt-3.png" alt="" class="w-full">
+            <div class="mt-4 flex items-center justify-between">
+              <p class="product-amount">$299.0</p>
+              <button class="add-to-cart">
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-cart-plus-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM4 14a1 1 0 1 1 2 0 1 1 0 0 1-2 0zm7 0a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9V5.5z"/>
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <div>
+            <p class="product-name mb-4 w-48">Ooni of Ife Head (Yoruba) African Bronze</p>
+            <img src="sculpt-4.png" alt="" class="w-full">
+            <div class="mt-4 flex items-center justify-between">
+              <p class="product-amount">$635.0</p>
+              <button class="add-to-cart">
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-cart-plus-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM4 14a1 1 0 1 1 2 0 1 1 0 0 1-2 0zm7 0a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9V5.5z"/>
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <div>
+            <p class="product-name mb-4 w-48">Oba of Benin - Esigie Akenzua II</p>
+            <img src="sculpt-5.png" alt="" class="w-full">
+            <div class="mt-4 flex items-center justify-between">
+              <p class="product-amount">$720.0</p>
+              <button class="add-to-cart">
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-cart-plus-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM4 14a1 1 0 1 1 2 0 1 1 0 0 1-2 0zm7 0a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9V5.5z"/>
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <div>
+            <p class="product-name mb-4 w-48">Oba of Benin - Esigie Akenzua II</p>
+            <img src="sculpt-6.png" alt="" class="w-full">
+            <div class="mt-4 flex items-center justify-between">
+              <p class="product-amount">$380.0</p>
+              <button class="add-to-cart">
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-cart-plus-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM4 14a1 1 0 1 1 2 0 1 1 0 0 1-2 0zm7 0a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9V5.5z"/>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer></footer>
+  </body>
+</html>
